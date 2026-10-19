@@ -111,7 +111,11 @@ section{position:relative}
 .course:not([aria-selected="true"]):hover{color:var(--gold-deep)}
 
 .stage{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:48px;align-items:center}
-.plate{position:relative;cursor:zoom-in;-webkit-mask-image:linear-gradient(135deg,#000 74%,transparent 97%);mask-image:linear-gradient(135deg,#000 74%,transparent 97%)}
+.plate{position:relative;cursor:zoom-in;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent),linear-gradient(180deg,transparent,#000 5%,#000 95%,transparent),linear-gradient(135deg,#000 70%,transparent 93%);
+  -webkit-mask-composite:source-in,source-in;
+  mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent),linear-gradient(180deg,transparent,#000 5%,#000 95%,transparent),linear-gradient(135deg,#000 70%,transparent 93%);
+  mask-composite:intersect}
 .plate img{width:100%;height:auto}
 .plate.swap-out{animation:plateOut .35s var(--ease) forwards}
 .plate.swap-in{animation:plateIn .9s var(--ease) both}
