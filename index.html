@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Meniu Emerald 2026 - catalogul de meniuri pentru nunti Emerald Luxury Events.">
+<style>[hidden]{display:none!important}body{margin:0}</style>
+<title>Meniu Emerald 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display+SC:wght@400&family=Montserrat:wght@300;400;500;600;700&display=swap">
+<style>
+/* Layout: the printed catalog, opened up — white pages, gold rule bands, one plate on stage at a time with its menu beside it. */
+:root{
+  --paper:#ffffff;
+  --mist:#f7f3ec;
+  --ink:#1f1b16;
+  --ink-soft:#5b5248;
+  --gold:#b58e4a;
+  --gold-deep:#7a5a26;
+  --gold-pale:#efe0b8;
+  --emerald:#0e5644;
+  --line:#e7dfd0;
+  --gold-band:linear-gradient(90deg,#f5e8c4 0%,#d4b06c 18%,#8d6b33 46%,#c9a35c 72%,#f6ecd0 100%);
+  --f-display:"Playfair Display",Georgia,"Times New Roman",serif;
+  --f-caps:"Playfair Display SC","Playfair Display",Georgia,serif;
+  --f-body:"Montserrat","Segoe UI",Arial,sans-serif;
+  --ease:cubic-bezier(.2,.7,.1,1);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band{height:12px;background:var(--gold-band);box-shadow:0 1px 0 rgba(122,90,38,.15)}
+.band.thin{height:5px}
+
+/* ---------- top bar ---------- */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:rgba(255,255,255,.86);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line);transition:box-shadow .3s}
+.bar.scrolled{box-shadow:0 8px 30px -18px rgba(60,40,10,.35)}
+.bar .wrap{display:flex;align-items:center;gap:20px;height:62px}
+.bar .logo{height:30px;width:auto;flex:none}
+.bar nav{display:flex;gap:4px;margin-left:auto;overflow-x:auto;scrollbar-width:none;min-width:0}
+.bar nav::-webkit-scrollbar{display:none}
+.bar nav a{white-space:nowrap;text-decoration:none;color:var(--ink-soft);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:9px 12px;border-radius:2px;transition:color .2s}
+.bar nav a:hover,.bar nav a.on{color:var(--gold-deep)}
+.bar nav a.on{box-shadow:inset 0 -2px 0 var(--gold)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;background:var(--paper)}
+.corner-tl{position:absolute;left:0;top:0;width:min(330px,46vw);pointer-events:none;z-index:2}
+.corner-br{position:absolute;right:0;bottom:0;width:min(230px,34vw);pointer-events:none;z-index:2}
+.hero .wrap{position:relative;z-index:3;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:56px;align-items:center;padding-block:76px 84px}
+.hero-logo{width:min(260px,62vw);margin-bottom:34px}
+.eyebrow{font-size:11.5px;font-weight:600;letter-spacing:.32em;text-transform:uppercase;color:var(--gold-deep)}
+.hero h1{font-family:var(--f-display);font-weight:500;font-size:clamp(46px,7.2vw,92px);line-height:.98;margin:14px 0 22px;letter-spacing:-.01em;text-wrap:balance}
+.hero h1 .y{display:block;font-style:italic;font-weight:400;background:var(--gold-band);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 7s linear infinite}
+@keyframes shimmer{to{background-position:-200% 0}}
+.hero p.lead{font-size:16px;color:var(--ink-soft);max-width:42ch;margin:0 0 32px}
+.tiers{display:flex;flex-wrap:wrap;gap:8px}
+.tier-chip{border:1px solid var(--line);background:var(--paper);padding:9px 14px 8px;display:flex;flex-direction:column;align-items:flex-start;gap:1px;transition:border-color .25s,transform .25s var(--ease),box-shadow .25s;text-decoration:none;color:var(--ink)}
+.tier-chip b{font-family:var(--f-display);font-weight:500;font-size:15px}
+.tier-chip span{font-size:11px;font-weight:600;letter-spacing:.08em;color:var(--gold-deep);font-variant-numeric:tabular-nums}
+.tier-chip:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:0 10px 24px -16px rgba(122,90,38,.6)}
+.hero-photo{position:relative}
+.hero-photo .frame{position:relative;overflow:hidden;box-shadow:0 40px 80px -40px rgba(40,25,5,.55)}
+.hero-photo .frame img{width:100%;aspect-ratio:900/555;object-fit:cover;animation:kenburns 22s ease-in-out infinite alternate}
+@keyframes kenburns{from{transform:scale(1.02)}to{transform:scale(1.12) translate(-1.5%,1%)}}
+.hero-photo::before{content:"";position:absolute;inset:-14px 14px 14px -14px;border:1px solid var(--gold);opacity:.6}
+.hero-photo .tag{position:absolute;left:-1px;bottom:22px;background:var(--emerald);color:#fff;padding:10px 18px;font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:600}
+
+/* load sequence */
+.intro .hero-logo,.intro .eyebrow,.intro h1,.intro .lead,.intro .tiers,.intro .hero-photo{animation:rise 1.1s var(--ease) both}
+.intro .eyebrow{animation-delay:.12s}.intro h1{animation-delay:.22s}.intro .lead{animation-delay:.38s}.intro .tiers{animation-delay:.5s}.intro .hero-photo{animation-delay:.3s;animation-duration:1.4s}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+
+/* ---------- section heads ---------- */
+section{position:relative}
+.sec{padding-block:88px}
+.sec.alt{background:var(--mist)}
+.head{display:grid;gap:10px;margin-bottom:40px;max-width:720px}
+.head h2{font-family:var(--f-display);font-weight:500;font-size:clamp(32px,4.6vw,52px);line-height:1.06;margin:0;text-wrap:balance}
+.head h2 em{font-weight:400;color:var(--gold-deep)}
+.head p{margin:0;color:var(--ink-soft);max-width:60ch}
+
+/* ---------- package tabs ---------- */
+.ptabs{position:relative;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.ptab{background:none;border:0;padding:20px 14px 18px;text-align:left;display:grid;gap:3px;position:relative;transition:background .3s}
+.ptab .n{font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+.ptab .t{font-family:var(--f-display);font-size:clamp(17px,2vw,23px);font-weight:500;line-height:1.15}
+.ptab .p{font-size:13px;font-weight:600;color:var(--gold-deep);font-variant-numeric:tabular-nums}
+.ptab:hover{background:rgba(181,142,74,.06)}
+.ptab[aria-selected="true"] .t{color:var(--emerald)}
+.ptab+.ptab{border-left:1px solid var(--line)}
+.ink-bar{position:absolute;bottom:-1px;height:3px;background:var(--gold-band);transition:left .55s var(--ease),width .55s var(--ease)}
+
+.pkg-intro{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 32px;margin:38px 0 26px}
+.pkg-intro h3{font-family:var(--f-display);font-weight:500;font-size:clamp(28px,3.6vw,40px);margin:0;line-height:1.1}
+.pkg-intro h3 small{display:block;font-family:var(--f-body);font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;margin-bottom:6px}
+.price{font-family:var(--f-display);font-size:clamp(30px,3.6vw,42px);color:var(--gold-deep);font-variant-numeric:lining-nums tabular-nums;white-space:nowrap}
+.price small{font-family:var(--f-body);font-size:12px;letter-spacing:.12em;color:var(--ink-soft);font-weight:600;margin-left:6px}
+
+.courses{display:inline-flex;border:1px solid var(--line);background:var(--paper);padding:4px;gap:4px;margin-bottom:28px;max-width:100%;overflow-x:auto}
+.course{border:0;background:none;padding:10px 20px;font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);white-space:nowrap;transition:background .3s,color .3s}
+.course[aria-selected="true"]{background:var(--emerald);color:#fff}
+.course:not([aria-selected="true"]):hover{color:var(--gold-deep)}
+
+.stage{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:48px;align-items:center}
+.plate{position:relative;cursor:zoom-in;-webkit-mask-image:linear-gradient(135deg,#000 74%,transparent 97%);mask-image:linear-gradient(135deg,#000 74%,transparent 97%)}
+.plate img{width:100%;height:auto}
+.plate.swap-out{animation:plateOut .35s var(--ease) forwards}
+.plate.swap-in{animation:plateIn .9s var(--ease) both}
+@keyframes plateOut{to{opacity:0;transform:scale(.97);filter:blur(6px)}}
+@keyframes plateIn{from{opacity:0;transform:scale(1.04) rotate(-1.2deg);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
+.dot{position:absolute;width:30px;height:30px;margin:-15px 0 0 -15px;border:0;padding:0;background:none;z-index:2}
+.dot::before{content:"";position:absolute;inset:9px;border-radius:50%;background:#fff;box-shadow:0 0 0 2px var(--gold),0 2px 8px rgba(0,0,0,.35);transition:transform .3s var(--ease),background .3s}
+.dot::after{content:"";position:absolute;inset:2px;border-radius:50%;border:1.5px solid rgba(255,255,255,.95);animation:ping 2.4s var(--ease) infinite;animation-delay:var(--d,0s);opacity:0}
+@keyframes ping{0%{transform:scale(.4);opacity:.9}70%,100%{transform:scale(1.5);opacity:0}}
+.swap-in .dot{animation:pop .6s var(--ease) both;animation-delay:calc(.45s + var(--i) * .06s)}
+@keyframes pop{from{transform:scale(0);opacity:0}to{transform:none;opacity:1}}
+.dot.hot::before{transform:scale(1.55);background:var(--gold)}
+.tip{position:absolute;z-index:3;pointer-events:none;background:rgba(20,16,10,.88);color:#fff;font-size:12.5px;font-weight:500;padding:8px 12px;max-width:240px;line-height:1.35;transform:translate(-50%,calc(-100% - 20px));opacity:0;transition:opacity .2s;border-left:2px solid var(--gold)}
+.tip.show{opacity:1}
+
+.dishes{list-style:none;margin:0;padding:0;display:grid;gap:2px;counter-reset:d}
+.dishes li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px;align-items:baseline;padding:11px 12px 11px 6px;border-bottom:1px solid var(--line);cursor:default;transition:background .25s,padding .3s var(--ease)}
+.dishes li .k{font-family:var(--f-display);font-size:19px;color:var(--gold);font-variant-numeric:lining-nums tabular-nums;text-align:right}
+.dishes li .x{font-weight:500;font-size:14.5px}
+.dishes li .x i{display:block;font-style:normal;font-size:11px;color:var(--ink-soft);letter-spacing:.06em;margin-top:2px;font-weight:500}
+.dishes li.has{cursor:pointer}
+.dishes li.has:hover,.dishes li.hot{background:linear-gradient(90deg,rgba(181,142,74,.13),rgba(181,142,74,0));padding-left:12px}
+.dishes li.enter{animation:li .55s var(--ease) both;animation-delay:calc(.25s + var(--i) * .045s)}
+@keyframes li{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:none}}
+.hint{margin:16px 0 0;font-size:12px;color:var(--ink-soft);display:flex;gap:8px;align-items:center}
+.hint::before{content:"";width:10px;height:10px;border-radius:50%;background:#fff;box-shadow:0 0 0 2px var(--gold);flex:none}
+
+.details{margin-top:44px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.details.three{grid-template-columns:1fr 1fr 2fr}
+.details button{border:0;padding:0;background:none;overflow:hidden;position:relative;aspect-ratio:4/3.2}
+.details img{width:100%;height:100%;object-fit:cover;transition:transform 1.1s var(--ease)}
+.details button:hover img{transform:scale(1.08)}
+.details-label{font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;color:var(--ink-soft);margin:44px 0 -30px}
+
+/* ---------- special menus ---------- */
+.specials{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.sp{background:var(--paper);border:1px solid var(--line);position:relative;display:flex;flex-direction:column}
+.sp .top{padding:26px 26px 20px;border-bottom:1px solid var(--line);display:grid;gap:4px}
+.sp .top::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:var(--gold-band)}
+.sp h3{font-family:var(--f-caps);font-weight:400;font-size:28px;margin:0;line-height:1.1}
+.sp .pp{font-family:var(--f-display);font-size:22px;color:var(--gold-deep);font-variant-numeric:lining-nums}
+.sp .pp small{font-family:var(--f-body);font-size:11px;letter-spacing:.12em;color:var(--ink-soft);font-weight:600}
+.sp details{border-bottom:1px solid var(--line)}
+.sp details:last-of-type{border-bottom:0}
+.sp summary{list-style:none;cursor:pointer;padding:15px 26px;display:flex;justify-content:space-between;align-items:center;font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase}
+.sp summary::-webkit-details-marker{display:none}
+.sp summary::after{content:"";width:9px;height:9px;border-right:1.5px solid var(--gold);border-bottom:1.5px solid var(--gold);transform:rotate(45deg) translateY(-3px);transition:transform .35s var(--ease)}
+.sp details[open] summary::after{transform:rotate(-135deg) translateY(-2px)}
+.sp ul{margin:0;padding:0 26px 18px;list-style:none;display:grid;gap:7px;font-size:14px}
+.sp ul li{padding-left:16px;position:relative}
+.sp ul li::before{content:"";position:absolute;left:0;top:.7em;width:6px;height:1px;background:var(--gold)}
+.sp ul li.or{padding-left:0;font-family:var(--f-display);font-style:italic;color:var(--gold-deep);font-size:13px}
+.sp ul li.or::before{display:none}
+.sp ul li small{display:block;color:var(--ink-soft);font-size:12.5px}
+.sp .note{margin:auto 0 0;padding:16px 26px;font-size:12.5px;color:var(--ink-soft);background:var(--mist);border-top:1px solid var(--line)}
+
+/* ---------- bar / drinks ---------- */
+.bar-hero{position:relative;overflow:hidden;height:clamp(300px,52vw,560px)}
+.bar-hero img{position:absolute;inset:-12% 0;width:100%;height:124%;object-fit:cover;will-change:transform}
+.bar-hero .cap{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(0deg,rgba(15,12,8,.72),rgba(15,12,8,0));color:#fff}
+.bar-hero .cap .wrap{padding-block:60px 34px}
+.bar-hero h2{font-family:var(--f-display);font-weight:500;font-size:clamp(34px,5.4vw,64px);margin:6px 0 0;line-height:1}
+.bar-hero .eyebrow{color:var(--gold-pale)}
+
+.pack{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid var(--line);background:var(--paper)}
+.pack>div{padding:26px;min-width:0}
+.pack>div+div{border-left:1px solid var(--line)}
+.pack h4{margin:0 0 14px;font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-deep)}
+.pack dl{margin:0;display:grid;gap:10px;font-size:14px}
+.pack dt{font-weight:600}
+.pack dd{margin:0;color:var(--ink-soft);font-size:13px}
+.pack ul{margin:0;padding:0;list-style:none;display:grid;gap:6px;font-size:14px;font-weight:500}
+
+.filter{display:flex;gap:6px;flex-wrap:wrap;margin:60px 0 24px;align-items:center}
+.filter h3{font-family:var(--f-display);font-weight:500;font-size:30px;margin:0 auto 0 0}
+.chip{border:1px solid var(--line);background:var(--paper);padding:8px 16px;font-size:11.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);transition:all .25s}
+.chip[aria-pressed="true"]{border-color:var(--emerald);background:var(--emerald);color:#fff}
+.cocktails{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.ck{position:relative;overflow:hidden;border:0;padding:0;background:var(--ink);aspect-ratio:274/354;text-align:left;transition:opacity .4s,transform .5s var(--ease)}
+.ck img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease),filter .6s}
+.ck .nm{position:absolute;left:0;right:0;bottom:0;padding:40px 16px 14px;background:linear-gradient(0deg,rgba(12,10,6,.8),rgba(12,10,6,0));color:#fff}
+.ck .nm b{display:block;font-family:var(--f-display);font-weight:500;font-size:21px;line-height:1.1}
+.ck .nm em{font-style:normal;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-pale);font-weight:600}
+.ck .rc{display:block;max-height:0;overflow:hidden;font-size:12.5px;line-height:1.45;color:rgba(255,255,255,.9);transition:max-height .6s var(--ease),margin .4s;margin-top:0}
+.ck:hover img,.ck.open img{transform:scale(1.07);filter:brightness(.62)}
+.ck:hover .rc,.ck.open .rc{max-height:120px;margin-top:8px}
+.ck.gone{display:none}
+.shots{margin-top:24px;display:flex;flex-wrap:wrap;gap:10px 28px;align-items:baseline;padding:20px 24px;border:1px solid var(--line);background:var(--paper)}
+.shots h4{margin:0;font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-deep)}
+.shots span{font-size:13.5px}
+.shots span b{font-weight:600}
+
+.wines h3{font-family:var(--f-display);font-weight:500;font-size:30px;margin:64px 0 6px}
+.wines p.sub{margin:0 0 24px;color:var(--ink-soft);font-size:14px}
+.shelf{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:12px;align-items:end;padding:28px 18px 0;background:linear-gradient(180deg,var(--paper) 0%,var(--paper) 86%,var(--mist) 86%);border-bottom:6px solid transparent;border-image:var(--gold-band) 1;overflow-x:auto}
+.btl{display:grid;justify-items:center;gap:12px;border:0;background:none;padding:0;min-width:0}
+.btl img{height:clamp(150px,19vw,230px);width:auto;mix-blend-mode:multiply;transition:transform .6s var(--ease)}
+.btl:hover img{transform:translateY(-10px) rotate(-3deg)}
+.btl span{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;text-align:center;line-height:1.35;min-height:3.9em;color:var(--ink)}
+
+/* ---------- calculator ---------- */
+.calc{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:0;border:1px solid var(--line);background:var(--paper)}
+.calc form{padding:30px;display:grid;gap:18px;border-right:1px solid var(--line)}
+.calc label{display:grid;gap:7px;font-size:11.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft)}
+.calc select,.calc input{font:500 15px var(--f-body);color:var(--ink);background:var(--paper);border:1px solid var(--line);padding:12px 14px;border-radius:0;width:100%;font-variant-numeric:tabular-nums}
+.calc select:focus,.calc input:focus{border-color:var(--gold);outline:none;box-shadow:0 0 0 3px rgba(181,142,74,.18)}
+.calc .row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.stepper{display:flex}
+.stepper input{text-align:center;border-left:0;border-right:0;-moz-appearance:textfield;min-width:0}
+.stepper input::-webkit-inner-spin-button{-webkit-appearance:none}
+.stepper button{border:1px solid var(--line);background:var(--mist);width:40px;flex:none;font-size:18px;color:var(--gold-deep)}
+.calc .out{padding:30px;display:flex;flex-direction:column;gap:14px;background:var(--emerald);color:#fff}
+.calc .out .eyebrow{color:var(--gold-pale)}
+.total{font-family:var(--f-display);font-size:clamp(40px,5vw,60px);line-height:1;font-variant-numeric:lining-nums tabular-nums}
+.total small{font-family:var(--f-body);font-size:14px;letter-spacing:.14em;margin-left:6px;color:var(--gold-pale)}
+.lines{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:13.5px;border-top:1px solid rgba(255,255,255,.2);padding-top:14px}
+.lines li{display:flex;justify-content:space-between;gap:12px;font-variant-numeric:tabular-nums}
+.lines li span:last-child{white-space:nowrap}
+.calc .out p{margin:auto 0 0;font-size:12px;color:rgba(255,255,255,.72)}
+
+footer{background:var(--ink);color:rgba(255,255,255,.7);padding-block:46px;text-align:center;font-size:12.5px}
+footer img{width:180px;margin:0 auto 14px;filter:invert(1) brightness(1.6)}
+
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(14,11,7,.94);display:grid;place-items:center;opacity:0;pointer-events:none;transition:opacity .35s;padding:max(20px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(20px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.lb.open{opacity:1;pointer-events:auto}
+.lb figure{margin:0;max-width:min(1400px,100%);max-height:100%;overflow:hidden;display:grid;gap:12px;justify-items:center}
+.lb img{max-height:calc(100vh - 120px);width:auto;object-fit:contain;transform:scale(.94);transition:transform .5s var(--ease);cursor:zoom-in;touch-action:pan-y}
+.lb.open img{transform:none}
+.lb img.z{transform:scale(2.1);cursor:zoom-out}
+.lb figcaption{color:rgba(255,255,255,.8);font-size:13px;letter-spacing:.06em;text-align:center}
+.lb .x,.lb .nav{position:absolute;border:1px solid rgba(255,255,255,.25);background:rgba(0,0,0,.35);color:#fff;width:48px;height:48px;display:grid;place-items:center;font-size:22px;line-height:1}
+.lb .x{top:calc(16px + env(safe-area-inset-top,0px));right:calc(16px + env(safe-area-inset-right,0px))}
+.lb .nav.p{left:calc(16px + env(safe-area-inset-left,0px));top:50%}
+.lb .nav.n{right:calc(16px + env(safe-area-inset-right,0px));top:50%}
+
+/* reveal on scroll */
+.rv{transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.pre{opacity:0;transform:translateY(30px)}
+
+@media (max-width:900px){
+  .hero .wrap{grid-template-columns:1fr;gap:40px;padding-block:56px 64px}
+  .stage{grid-template-columns:1fr;gap:20px}
+  .ptabs{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax(150px,1fr);overflow-x:auto;scrollbar-width:none}
+  .ptabs::-webkit-scrollbar{display:none}
+  .specials{grid-template-columns:1fr}
+  .pack{grid-template-columns:1fr}
+  .pack>div+div{border-left:0;border-top:1px solid var(--line)}
+  .calc{grid-template-columns:1fr}
+  .calc form{border-right:0;border-bottom:1px solid var(--line)}
+  .shelf{grid-template-columns:repeat(7,minmax(96px,1fr))}
+  .details,.details.three{grid-template-columns:1fr 1fr}
+  .details.three button:last-child{grid-column:1/-1;aspect-ratio:16/9}
+}
+@media (max-width:560px){
+  .sec{padding-block:64px}
+  .calc .row{grid-template-columns:1fr}
+  .cocktails{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .ck .nm b{font-size:17px}
+  .dot{width:26px;height:26px;margin:-13px 0 0 -13px}
+  .dot::before{inset:8px}
+  .bar .logo{height:24px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<header class="bar" id="bar">
+  <div class="wrap">
+    <a href="#top" aria-label="Emerald, începutul catalogului"><img class="logo" src="img/logo.png" alt="Emerald Luxury Events"></a>
+    <nav aria-label="Secțiuni">
+      <a href="#meniuri">Meniuri</a>
+      <a href="#speciale">Speciale</a>
+      <a href="#bauturi">Băuturi</a>
+      <a href="#vinuri">Vinuri</a>
+      <a href="#calcul">Calcul</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero intro" id="top">
+  <img class="corner-tl" src="img/corner-tl.png" alt="">
+  <img class="corner-br" src="img/corner-br.png" alt="">
+  <div class="wrap">
+    <div>
+      <img class="hero-logo" src="img/logo.png" alt="Emerald Luxury Events">
+      <div class="eyebrow">Catalog pentru miri</div>
+      <h1>Meniu Emerald <span class="y">2026</span></h1>
+      <p class="lead">Cinci variante de meniu pentru nunta voastră, fiecare cu aperitiv, fel principal și cină. Atingeți preparatele din listă ca să le vedeți pe farfurie.</p>
+      <div class="tiers" id="tierChips"></div>
+    </div>
+    <div class="hero-photo">
+      <div class="frame"><img src="img/cover.jpg" alt="Masă rotundă aranjată Emerald, cu farfurii servite și pahare de cristal"></div>
+      <div class="tag">Luxury Events</div>
+    </div>
+  </div>
+</section>
+<div class="band"></div>
+
+<section class="sec" id="meniuri">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="eyebrow">Meniuri de nuntă</div>
+      <h2>Alegeți varianta <em>potrivită</em></h2>
+      <p>Prețurile sunt per persoană. Fiecare variantă are trei momente: aperitivul, felul principal și cina de după miezul nopții.</p>
+    </div>
+    <div class="ptabs" role="tablist" id="ptabs"><div class="ink-bar" id="inkBar"></div></div>
+    <div class="pkg-intro">
+      <h3 id="pkgName"></h3>
+      <div class="price" id="pkgPrice"></div>
+    </div>
+    <div class="courses" role="tablist" id="courses"></div>
+    <div class="stage">
+      <div class="plate" id="plate"><img id="plateImg" alt=""><div class="tip" id="tip"></div></div>
+      <div>
+        <ol class="dishes" id="dishes"></ol>
+        <p class="hint">Punctele aurii arată unde se află preparatul pe farfurie.</p>
+      </div>
+    </div>
+    <div class="details-label" id="detailsLabel" hidden>Detalii din felul principal</div>
+    <div class="details" id="details"></div>
+  </div>
+</section>
+<div class="band thin"></div>
+
+<section class="sec alt" id="speciale">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="eyebrow">Meniuri speciale</div>
+      <h2>Pentru fiecare <em>invitat</em></h2>
+      <p>Variante complete pentru invitații vegetarieni, vegani și pentru copii. La felul principal și la cină se alege una dintre două opțiuni.</p>
+    </div>
+    <div class="specials" id="specials"></div>
+  </div>
+</section>
+
+<section id="bauturi">
+  <div class="bar-hero">
+    <img id="barImg" src="img/bar-hero.jpg" alt="Cocktailuri Emerald cu fructe proaspete, pe fundal de perete verde">
+    <div class="cap"><div class="wrap">
+      <div class="eyebrow">Pachet băuturi</div>
+      <h2>Băuturi alcoolice și nealcoolice</h2>
+    </div></div>
+  </div>
+  <div class="band thin"></div>
+  <div class="sec" style="padding-top:56px">
+    <div class="wrap">
+      <div class="pack rv">
+        <div>
+          <h4>Spirtoase</h4>
+          <ul><li>Jack Daniels</li><li>Cognac Jidvei</li><li>Cognac Brâncoveanu</li><li>Vodcă Finlandia</li><li>Baileys Irish Cream</li></ul>
+        </div>
+        <div>
+          <h4>Vinuri și bere</h4>
+          <dl>
+            <div><dt>Alb</dt><dd>Sauvignon Blanc (demisec), Chardonnay (sec)</dd></div>
+            <div><dt>Roșu</dt><dd>Fetească Neagră (demisec), Montepulciano (sec)</dd></div>
+            <div><dt>Roze</dt><dd>Crama Vinarte (demisec), Crama Pirovano (sec)</dd></div>
+            <div><dt>Prosecco</dt><dd>Collenovo Extra Dry DOC</dd></div>
+            <div><dt>Bere</dt><dd>Heineken / Heineken fără alcool</dd></div>
+          </dl>
+        </div>
+        <div>
+          <h4>Nealcoolice și cafea</h4>
+          <dl>
+            <div><dt>Apă</dt><dd>Plată / minerală Bucovina</dd></div>
+            <div><dt>Sucuri</dt><dd>Pepsi / Prigat</dd></div>
+            <div><dt>Energizant</dt><dd>Hell</dd></div>
+            <div><dt>Cafea Illy</dt><dd>Ristretto, espresso, cappuccino, latte macchiato, decofeinizată</dd></div>
+            <div><dt>Ceai Illy</dt><dd>Fructe, mentă, iasomie, verde, negru</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="filter">
+        <h3>Cocktail bar</h3>
+        <button class="chip" aria-pressed="true" data-f="all">Toate</button>
+        <button class="chip" aria-pressed="false" data-f="a">Cu alcool</button>
+        <button class="chip" aria-pressed="false" data-f="n">Fără alcool</button>
+      </div>
+      <div class="cocktails" id="cocktails"></div>
+      <div class="shots rv">
+        <h4>Shots</h4>
+        <span><b>Blue Kamikaze</b> vodka, triple sec, sweet &amp; sour, blue curacao</span>
+        <span><b>White Sensation</b> vodka, triple sec, sweet &amp; sour, sirop lime &amp; ghimbir</span>
+        <span><b>Passion Bite</b> vodka, triple sec, sweet &amp; sour, sirop maracuja</span>
+        <span><b>Unicum &amp; Jägermeister</b></span>
+        <span><b>Tequila</b></span>
+        <span><b>Tort de shoturi</b> mix de shoturi</span>
+      </div>
+
+      <div class="wines" id="vinuri"></div>
+    </div>
+  </div>
+</section>
+<div class="band thin"></div>
+
+<section class="sec alt" id="calcul">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="eyebrow">Estimare</div>
+      <h2>Cât costă <em>meniul</em> pentru nunta voastră</h2>
+      <p>Introduceți numărul de invitați și varianta aleasă. Valorile de pornire sunt doar un exemplu; oferta finală o primiți de la echipa Emerald.</p>
+    </div>
+    <div class="calc rv">
+      <form id="calcForm" autocomplete="off">
+        <label for="cPkg">Varianta de meniu
+          <select id="cPkg"></select>
+        </label>
+        <div class="row">
+          <label for="cAdults">Adulți
+            <span class="stepper"><button type="button" data-step="-1" aria-label="Mai puțini adulți">−</button><input id="cAdults" type="number" inputmode="numeric" min="0" value="150"><button type="button" data-step="1" aria-label="Mai mulți adulți">+</button></span>
+          </label>
+          <label for="cKids">Copii
+            <span class="stepper"><button type="button" data-step="-1" aria-label="Mai puțini copii">−</button><input id="cKids" type="number" inputmode="numeric" min="0" value="12"><button type="button" data-step="1" aria-label="Mai mulți copii">+</button></span>
+          </label>
+          <label for="cNone">Fără meniu
+            <span class="stepper"><button type="button" data-step="-1" aria-label="Mai puține persoane fără meniu">−</button><input id="cNone" type="number" inputmode="numeric" min="0" value="4"><button type="button" data-step="1" aria-label="Mai multe persoane fără meniu">+</button></span>
+          </label>
+        </div>
+        <label for="cVeg">Din adulți, cu meniu vegetarian sau vegan
+          <span class="stepper"><button type="button" data-step="-1" aria-label="Mai puține meniuri vegetariene">−</button><input id="cVeg" type="number" inputmode="numeric" min="0" value="6"><button type="button" data-step="1" aria-label="Mai multe meniuri vegetariene">+</button></span>
+        </label>
+      </form>
+      <div class="out" aria-live="polite">
+        <div class="eyebrow">Total estimat</div>
+        <div class="total" id="cTotal">0<small>lei</small></div>
+        <ul class="lines" id="cLines"></ul>
+        <p>Meniul pentru copii costă 250 lei. Pentru persoanele care nu solicită meniu se aplică o taxă de service de 50 lei.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <img src="img/logo.png" alt="Emerald Luxury Events">
+    Meniu Emerald 2026 · Catalog general pentru miri
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Fotografie mărită">
+  <button class="x" id="lbX" aria-label="Închide">×</button>
+  <button class="nav p" id="lbP" aria-label="Fotografia anterioară">‹</button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="nav n" id="lbN" aria-label="Fotografia următoare">›</button>
+</div>
+
+<script>
+const PKG = [
+ {id:"classic", name:"Emerald Classic", price:450,
+  courses:{
+   ap:[["Vol-au-vent cu pui BBQ",61,63],["Ruladă din jambon de porc marinat",67,35],["Selecție de brânzeturi fine cu struguri și trio de ardei",31,39],["Yorkshire pudding cu salată fină de icre",42,27],["Wrap cu legume proaspete",69,44],["Chifteluțe fragede în mantie de semințe",23,55],["Bărcuțe de roșii cu salată de vinete și telemea",32,65],["Măsline Kalamata marinate",67,51],["Duo de roșii cherry și castraveți proaspeți"],["Mini-șnițele din piept de pui cu sos Royal",52,41],["Mix de salată verde cu dressing de ulei de măsline extravirgin",50,60]],
+   main:[["Balotină de pasăre cu ierburi aromate și spanac baby",48,62],["Specialitate de porc slow-cooked cu sos fin de piper verde",27,39],["Piure de cartofi cremos",53,28],["Legume franțuzești sote",75,45],["Salată de castraveți murați, rețetă tradițională"]],
+   cina:[["Sărmăluțe în frunză de varză, cu jambon afumat",44,42],["Mămăliguță aurie",66,45],["Smântână fină și ardei iute"]]},
+  details:4},
+ {id:"premium", name:"Emerald Premium", price:475,
+  courses:{
+   ap:[["Balotină de pui în mantie de bresaola",68,28],["Pârjoale fragede de porc cu mousse de muștar Dijon",74,40],["Ruladă de brânzeturi Quattro Formaggi în crustă de alune de pădure",50,18],["Crostini cu somon fume, caviar, lime și spumă fină de brânză",25,48],["Mușchiuleț de porc Royal cu mousse de Gorgonzola",68,64],["Canapele cu spumă de șuncă Parma și roșii uscate, texturate cu semințe",45,67],["Frigărui cu roșii cherry, bocconcini și petale de busuioc",61,24],["Mini-șnițele din piept de pui cu sos Royal",47,36],["Turnuleț de castravete proaspăt",71,36],["Măsline Kalamata marinate",58,69],["Roll de legume cu rucola",34,32]],
+   main:[["Galantină de pasăre în mantie de Prosciutto, glazurată cu sweet chilli",61,61],["Mușchiuleț de porc în stil mediteranean, cu sos de vin Emerald",32,40],["Cartofi gratinați",45,33],["Legume Lyonnaise",72,45],["Salată de ardei copți"]],
+   cina:[["Rulou de curcan în crustă de pesmet și Parmezan",38,41],["Cartofi copți cu ierburi fine și unt",64,49],["Salată de castraveți murați"]]},
+  details:4},
+ {id:"heritage", name:"Emerald Heritage", sub:"Tradițional de Luxe", price:490,
+  courses:{
+   ap:[["Coppa de porc, selecție artizanală",56,63],["Dobos cu cheddar maturat",31,34],["Salată boeuf, rețetă tradițională",64,30],["Frigărui gourmet cu jambon afumat, cheddar și măsline",73,54],["Chifteluțe tradiționale, după rețetă de casă",39,58],["Bruschetă rustică cu jumări și ceapă verde",28,49],["Caltaboș crocant cu mousse de muștar",77,38],["Turnuleț de castravete proaspăt cu cremă de hrean",52,23],["Coșuleț cu slăninuță de casă, brânză de burduf și roșii proaspete",38,25],["Măsline Kalamata marinate"],["Salată de vinete, rețetă tradițională",57,33]],
+   main:[["Portofel de pui umplut cu telemea, servit cu crutoane crocante de slănină",45,58],["Ciolan de porc rotisat, glazurat cu sos de muștar Dijon",73,49],["Varză călită, rețetă tradițională",45,36],["Cartofi copți cu ierburi fine și unt",64,27],["Murătură de ardei umpluți cu varză"]],
+   cina:[["Friptură de vițel tip gulaș, gătită lent",38,41],["Piure de cartofi cremos",64,50],["Murături asortate"]]},
+  details:4},
+ {id:"royale", name:"Emerald Royale", price:500,
+  courses:{
+   ap:[["Balotină de porc în mantie de ierburi fine",25,41],["Duet de pui și mușchiuleț de porc în crustă aromatică",72,49],["Yorkshire pudding cu friptură fragedă de curcan",62,32],["Ruladă cu somon fume, cremă fină de brânză, roșii uscate, caviar și lime",46,50],["Canapele cu pastramă din piept de rață afumat și dulceață de ceapă",35,34],["Mini cheesecake sărat cu brânzeturi fine și spanac",53,25],["Pralină cu bresaola și brânză de capră",37,65],["Wrap cu legume proaspete",29,56],["Chifteluțe scoțiene cu ou de prepeliță în crustă aurie",57,65],["Măsline Kalamata marinate",61,43],["Roll de legume cu rucola proaspătă",77,45]],
+   main:[["Pansetă fină de curcan cu brunoise de ardei copți și sos de Gorgonzola",60,60],["Aripioară de porc la cuptor cu sos Chimichurri",35,32],["Cartofi țărănești"],["Legume Lyonnaise",61,32],["Salată de murături asortate"]],
+   cina:[["Tomahawk de porc la cuptor cu sos de hrean",38,41],["Piure de cartofi cu Parmezan",64,49],["Salată de castraveți murați",65,21]]},
+  details:3},
+ {id:"signature", name:"Emerald Signature", price:525,
+  courses:{
+   ap:[["Friptură de curcan marinată, în mantie de kataif",24,56],["Galantină din mușchiuleț de porc cu tartar fin de mango",31,39],["Chips crocant din semințe cu vitello tonnato",48,64],["Soufflé de brânzeturi fine cu nucă Macadamia, merișoare și ierburi aromate",52,28],["Parfait de ficat de gâscă cu fistic copt",52,41],["Creveți Butterfly cu sos Chimichurri",66,35],["Ruladă de chorizo cu pepper drops, baby castraveți și cremă fină de brânzeturi",66,53],["Balotină din pește alb cu brunoise de legume",70,44],["Duo de roșii cherry și castraveți proaspeți"],["Salată Prosciutto & Melone",38,33],["Măsline Kalamata marinate",37,61]],
+   main:[["Pulpă de rață confiată pe varză roșie sote, cu sos de vin roșu",37,33],["Mușchiuleț de porc venețian, aromatizat cu roșii uscate și duxelles de ciuperci",69,42],["Arancini de cartofi cu pancetta crocantă",53,30],["Mix de ciuperci de pădure marinate, cu rucola și pepper drops"]],
+   cina:[["File de biban de mare în crustă crocantă de fistic",38,43],["Arancini de orez risotto",68,37],["Piure fin de morcov dulce (sweet carrot)"],["Sos de șampanie cu capere și lămâie",34,64]]},
+  details:4}
+];
+const COURSE_NAMES = {ap:"Aperitiv", main:"Fel principal", cina:"Cină"};
+
+const SPECIALS = [
+ {name:"Meniu vegetarian", price:450, groups:[
+  ["Aperitiv",["Frigărui de chifteluțe vegane cu baby castraveți","Ruladă de brânzeturi Quattro Formaggi în crustă de alune de pădure","Wrap cu legume crocante","Salată à la russe","Rulouri de mortadella cu fistic și salată coleslaw","Spring rolls cu sos Sunshine","Frigărui cu roșii cherry, bocconcini și petale de busuioc","Crispy vegan","Coșulețe cu vinete","Măsline Kalamata marinate","Mix de salată verde cu dressing de ulei de măsline extravirgin"]],
+  ["Ciorbă",["Ciorbă de legume","Supă cremă de ardei copți cu crutoane de pâine"]],
+  ["Fel principal, la alegere",[["Parmigiana Elevata","turn din vinete, roșii și mozzarella di bufala, gratinat · sos de roșii cu busuioc · piure de cartofi cu Parmezan"],"sau",["Dovlecel umplut cu risotto și legume","cartofi gratinați · legume Lyonnaise · sos napoletan"],"Salată de ardei copți"]],
+  ["Desert",["Tortul mirilor (variantă vegană, la cerere)"]],
+  ["Cină, la alegere",[["Sărmăluțe de legume în frunză de varză","mămăliguță · ardei iute"],"sau",["Cașcaval vegan în crustă panko","cartofi rösti · salată de castraveți murați"]]]
+ ]},
+ {name:"Meniu vegan", price:450, groups:[
+  ["Aperitiv",["Crostini cu cremă vegană de „brânză” și salam vegan","Frigărui de chifteluțe vegane cu baby castraveți","Rulouri de mortadella vegană cu fistic și salată coleslaw","Wrap cu legume proaspete","Spring rolls cu sos Sunshine","Frigărui cu roșii cherry, tofu și petale de busuioc","Coșulețe cu vinete","Măsline Kalamata marinate","Crispy vegan","Mix de salată verde cu dressing de ulei de măsline extravirgin"]],
+  ["Ciorbă",["Ciorbă de legume","Supă cremă de ardei copți cu crutoane de pâine"]],
+  ["Fel principal, la alegere",[["Ciuperci King Oyster marinate la cuptor","cremă fină de năut · sote de mazăre verde · sos de roșii cu mirodenii"],"sau",["Dovlecel umplut cu risotto și legume","cartofi gratinați · legume Lyonnaise · sos napoletan"],"Salată de ardei copți"]],
+  ["Desert",["Tortul mirilor (variantă vegană, la cerere)"]],
+  ["Cină, la alegere",[["Sărmăluțe de legume în frunză de varză","mămăliguță · ardei iute"],"sau",["Cașcaval vegan în crustă panko","cartofi rösti · salată de castraveți murați"]]]
+ ]},
+ {name:"Meniu copii", price:250, note:"Pentru persoanele la care nu se solicită meniu există o taxă de service de 50 lei.", groups:[
+  ["Aperitiv",["Vol-au-vent cu pui BBQ","Chifteluțe fragede în mantie de semințe","Wrap cu pui, sos tartar și ardei copți","Frigărui cu roșii cherry, bocconcini și petale de busuioc","Mini-șnițele din piept de pui cu sos Royal","Bărcuțe de roșii cu salată de vinete și telemea","Gujonete din piept de pui marinat","Turnuleț de castravete proaspăt"]],
+  ["Ciorbă",["Ciorbă la alegere"]],
+  ["Fel principal, la alegere",["Crispy de pui cu cartofi chips și sosul casei","sau",["Rulou din piept de pui cu cașcaval, în crustă de pesmet","servit cu cartofi gratinați · salată de castraveți murați"]]],
+  ["Desert",["Tortul mirilor"]],
+  ["Cină",["½ porție din meniul ales"]]
+ ]}
+];
+
+const COCKTAILS = [
+ ["hugo","Hugo","a","Prosecco, sirop de soc, mentă, lime, apă minerală"],
+ ["aperol","Aperol Spritz","a","Aperol, prosecco, apă minerală, felie de portocală"],
+ ["gintonic","Gin Tonic","a","Gin, apă tonică, lime, lămâie, felie de castravete, rozmarin, grapefruit, piper roz"],
+ ["ginpink","Gin Tonic Pink","a","Gin pink, apă tonică pink, grapefruit"],
+ ["cubalibre","Cuba Libre","a","Rom, lime, Pepsi"],
+ ["mojito","Mojito","a","Rom alb, lime, zahăr brun, mentă, sweet & sour, apă minerală"],
+ ["campari","Campari Orange","a","Campari, suc de portocale, felie de portocală"],
+ ["negroni","Negroni","a","Gin, Martini Vermut Rosso, Campari, felie de portocală"],
+ ["tequila","Tequila Sunrise","a","Tequila, suc de portocale, sirop grenadină, felie de portocală"],
+ ["greenapple","Green Apple","n","Suc de mere, lime, zahăr brun, sweet & sour, sirop blue curacao"],
+ ["cranberry","Cranberry Mint Cooler","n","Suc cranberry, mentă, lime, zahăr brun, sweet & sour, felie de lămâie"],
+ ["virginmojito","Virgin Mojito","n","Lime, lămâie, mentă, zahăr brun, sweet & sour, apă minerală"],
+ ["safebeach","Safe Beach","n","Suc de piersici, suc de portocale, suc cranberry, sirop grenadină, felie de grapefruit"]
+];
+
+const WINES = [
+ {title:"Selecția Vinarte & Pirovano", sub:"Vinurile din pachetul de băuturi, inclusiv eticheta Emerald semnată Vinarte.", list:[
+  ["vinarte-alb","Vinarte Alb"],["vinarte-rose","Vinarte Rose"],["vinarte-rosu","Vinarte Roșu"],["salento","Salento Rosato"],["montepulciano","Pirovano Montepulciano d’Abruzzo"],["chardonnay","Pirovano Chardonnay"],["collenovo","Collenovo Prosecco"]]},
+ {title:"Selecția Nedeea & Tenuta Romana", sub:"Cupaje românești și vinuri italiene D.O.C.", list:[
+  ["nedeea-alb","Nedeea Alb · Fetească Albă, Fetească Regală, Tămâioasă Românească"],["nedeea-rose","Nedeea Rose · Fetească Neagră, Băbească Neagră"],["nedeea-rosu","Nedeea Roșu · Fetească Neagră, Novac, Negru de Drăgășani"],["pinot","Pinot Grigio D.O.C. Venustas"],["bardolino","Bardolino D.O.C. Rosato"],["syrah","Syrah I.G.T. Terre Siciliane"],["festivitas","Prosecco Extra-Dry D.O.C. Festivitas"]]}
+];
+
+const $ = s => document.querySelector(s);
+const el = (t, a = {}, h = "") => { const e = document.createElement(t); for (const k in a) e.setAttribute(k, a[k]); if (h) e.innerHTML = h; return e; };
+const lei = n => n.toLocaleString("ro-RO");
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ---- hero chips ---- */
+PKG.forEach(p => {
+  const a = el("a", {class:"tier-chip", href:"#"+p.id}, `<b>${p.name.replace("Emerald ","")}</b><span>${p.price} lei / pers</span>`);
+  $("#tierChips").append(a);
+});
+
+/* ---- packages ---- */
+let cur = PKG[0], course = "ap";
+const ptabs = $("#ptabs"), ink = $("#inkBar");
+PKG.forEach((p, i) => {
+  const b = el("button", {class:"ptab", role:"tab", "aria-selected":"false", id:"tab-"+p.id},
+    `<span class="n">Varianta ${i+1}</span><span class="t">${p.name.replace("Emerald ","")}</span><span class="p">${p.price} lei / pers</span>`);
+  b.onclick = () => selectPkg(p);
+  ptabs.append(b);
+});
+Object.entries(COURSE_NAMES).forEach(([k, v]) => {
+  const b = el("button", {class:"course", role:"tab", "aria-selected":"false", "data-c":k}, v);
+  b.onclick = () => { if (course !== k) { course = k; render(true); } };
+  $("#courses").append(b);
+});
+
+function moveInk() {
+  const t = $("#tab-"+cur.id); if (!t) return;
+  ink.style.left = t.offsetLeft + "px"; ink.style.width = t.offsetWidth + "px";
+}
+function selectPkg(p, quiet) {
+  if (p === cur && !quiet) return;
+  cur = p; course = "ap";
+  document.querySelectorAll(".ptab").forEach(t => t.setAttribute("aria-selected", t.id === "tab-"+p.id));
+  moveInk();
+  const t = $("#tab-"+p.id); if (t && ptabs.scrollWidth > ptabs.clientWidth) ptabs.scrollTo({left:t.offsetLeft - 20, behavior:"smooth"});
+  $("#pkgName").innerHTML = `<small>${p.sub || "Varianta " + (PKG.indexOf(p)+1)}</small>${p.name}`;
+  $("#pkgPrice").innerHTML = `${p.price}<small>lei / pers</small>`;
+  render(!quiet);
+  renderDetails();
+}
+
+const plate = $("#plate"), img = $("#plateImg"), tip = $("#tip");
+let swapTimer;
+function render(animate) {
+  document.querySelectorAll(".course").forEach(b => b.setAttribute("aria-selected", b.dataset.c === course));
+  const items = cur.courses[course];
+  const src = `img/${cur.id}-${course}.jpg`;
+  const build = () => {
+    plate.querySelectorAll(".dot").forEach(d => d.remove());
+    img.src = src;
+    img.alt = `${cur.name}, ${COURSE_NAMES[course].toLowerCase()}: farfuria servită`;
+    let di = 0;
+    items.forEach((it, i) => {
+      if (it[1] == null) return;
+      const d = el("button", {class:"dot", "aria-label": it[0], "data-i": i});
+      d.style.left = it[1] + "%"; d.style.top = it[2] + "%";
+      d.style.setProperty("--i", di); d.style.setProperty("--d", (di * 0.37 % 2.4) + "s"); di++;
+      d.addEventListener("mouseenter", () => hot(i, true));
+      d.addEventListener("mouseleave", () => hot(-1));
+      d.addEventListener("focus", () => hot(i, true));
+      d.addEventListener("blur", () => hot(-1));
+      d.addEventListener("click", e => { e.stopPropagation(); hot(i, true, true); });
+      plate.append(d);
+    });
+    const ol = $("#dishes"); ol.innerHTML = "";
+    items.forEach((it, i) => {
+      const li = el("li", {"data-i": i, class: (it[1] != null ? "has " : "") + (animate ? "enter" : "")},
+        `<span class="k">${i+1}</span><span class="x">${it[0]}${it[1] == null ? "<i>servit alături</i>" : ""}</span>`);
+      li.style.setProperty("--i", i);
+      if (it[1] != null) {
+        li.addEventListener("mouseenter", () => hot(i));
+        li.addEventListener("mouseleave", () => hot(-1));
+        li.addEventListener("click", () => hot(i, true, true));
+      }
+      ol.append(li);
+    });
+    if (animate) { plate.classList.remove("swap-out"); void plate.offsetWidth; plate.classList.add("swap-in"); }
+  };
+  clearTimeout(swapTimer);
+  if (animate && !reduce) {
+    const pre = new Image(); pre.src = src;
+    plate.classList.remove("swap-in"); plate.classList.add("swap-out");
+    swapTimer = setTimeout(() => (pre.complete ? build() : (pre.onload = pre.onerror = build)), 330);
+  } else build();
+}
+let pinned = -1;
+function hot(i, showTip, pin) {
+  if (pin) pinned = (pinned === i ? -1 : i);
+  const k = i < 0 ? pinned : i;
+  plate.querySelectorAll(".dot").forEach(d => d.classList.toggle("hot", +d.dataset.i === k));
+  document.querySelectorAll("#dishes li").forEach(l => l.classList.toggle("hot", +l.dataset.i === k));
+  const it = cur.courses[course][k];
+  if (k >= 0 && it && it[1] != null) {
+    tip.textContent = it[0];
+    tip.style.left = Math.min(Math.max(it[1], 18), 82) + "%"; tip.style.top = it[2] + "%";
+    tip.classList.add("show");
+  } else tip.classList.remove("show");
+}
+plate.addEventListener("click", () => openLB([{src:img.src, cap:img.alt}], 0));
+
+function renderDetails() {
+  const box = $("#details"); box.innerHTML = "";
+  box.className = "details" + (cur.details === 3 ? " three" : "");
+  $("#detailsLabel").hidden = false;
+  const set = [];
+  for (let n = 1; n <= cur.details; n++) set.push({src:`img/${cur.id}-d${n}.jpg`, cap:`${cur.name}, fel principal: detaliu ${n} din ${cur.details}`});
+  set.forEach((s, i) => {
+    const b = el("button", {"aria-label":"Mărește " + s.cap}); const im = el("img", {src:s.src, alt:s.cap, loading:"lazy"});
+    b.append(im); b.onclick = () => openLB(set, i); box.append(b);
+  });
+}
+
+/* ---- specials ---- */
+SPECIALS.forEach(s => {
+  const c = el("article", {class:"sp rv"});
+  c.innerHTML = `<div class="top"><h3>${s.name}</h3><div class="pp">${s.price} <small>LEI / PERS</small></div></div>`;
+  s.groups.forEach(([g, list], gi) => {
+    const d = el("details"); if (gi < 1 || window.innerWidth > 900) d.open = true;
+    d.innerHTML = `<summary>${g}</summary>`;
+    const ul = el("ul");
+    list.forEach(x => {
+      if (x === "sau") ul.append(el("li", {class:"or"}, "sau"));
+      else if (Array.isArray(x)) ul.append(el("li", {}, `${x[0]}<small>${x[1]}</small>`));
+      else ul.append(el("li", {}, x));
+    });
+    d.append(ul); c.append(d);
+  });
+  if (s.note) c.append(el("p", {class:"note"}, s.note));
+  $("#specials").append(c);
+});
+
+/* ---- cocktails ---- */
+const ckSet = COCKTAILS.map(([f, n, , r]) => ({src:`img/c-${f}.jpg`, cap:`${n}: ${r}`}));
+COCKTAILS.forEach(([f, n, t, r], i) => {
+  const b = el("button", {class:"ck", "data-t":t, "aria-label":`${n}. ${r}`});
+  b.innerHTML = `<img src="img/c-${f}.jpg" alt="Cocktail ${n}" loading="lazy"><span class="nm"><em>${t === "a" ? "Cocktail" : "Fără alcool"}</em><b>${n}</b><span class="rc">${r}</span></span>`;
+  b.onclick = () => {
+    if (matchMedia("(hover:hover)").matches) openLB(ckSet, i);
+    else if (b.classList.contains("open")) openLB(ckSet, i);
+    else { document.querySelectorAll(".ck.open").forEach(o => o.classList.remove("open")); b.classList.add("open"); }
+  };
+  $("#cocktails").append(b);
+});
+document.querySelectorAll(".chip").forEach(ch => ch.onclick = () => {
+  document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c === ch));
+  const f = ch.dataset.f;
+  document.querySelectorAll(".ck").forEach((c, i) => {
+    const show = f === "all" || c.dataset.t === f;
+    c.classList.toggle("gone", !show);
+    if (show && !reduce) c.animate([{opacity:0, transform:"translateY(16px) scale(.97)"}, {opacity:1, transform:"none"}], {duration:520, delay:i * 35 % 300, easing:"cubic-bezier(.2,.7,.1,1)", fill:"backwards"});
+  });
+});
+
+/* ---- wines ---- */
+WINES.forEach(w => {
+  const box = $("#vinuri");
+  box.append(el("h3", {class:"rv"}, w.title));
+  box.append(el("p", {class:"sub"}, w.sub));
+  const shelf = el("div", {class:"shelf rv"});
+  const set = w.list.map(([f, n]) => ({src:`img/w-${f}.jpg`, cap:n}));
+  w.list.forEach(([f, n], i) => {
+    const short = n.split(" · ")[0];
+    const b = el("button", {class:"btl", title:n, "aria-label":"Mărește sticla " + n},
+      `<img src="img/w-${f}.jpg" alt="Sticlă ${short}" loading="lazy"><span>${short}</span>`);
+    b.onclick = () => openLB(set, i);
+    shelf.append(b);
+  });
+  box.append(shelf);
+});
+
+/* ---- calculator ---- */
+const cPkg = $("#cPkg");
+PKG.forEach(p => cPkg.append(el("option", {value:p.id}, `${p.name} · ${p.price} lei / pers`)));
+cPkg.value = "royale";
+function num(id) { const v = parseInt($(id).value, 10); return isNaN(v) || v < 0 ? 0 : v; }
+let shown = 0, raf;
+function calc() {
+  const p = PKG.find(x => x.id === cPkg.value);
+  const ad = num("#cAdults"), veg = Math.min(num("#cVeg"), ad), kids = num("#cKids"), none = num("#cNone");
+  const rows = [
+    [`${ad - veg} × ${p.name}`, (ad - veg) * p.price],
+    veg ? [`${veg} × vegetarian / vegan`, veg * 450] : null,
+    kids ? [`${kids} × meniu copii`, kids * 250] : null,
+    none ? [`${none} × taxă service fără meniu`, none * 50] : null
+  ].filter(Boolean);
+  const total = rows.reduce((s, r) => s + r[1], 0);
+  $("#cLines").innerHTML = rows.map(r => `<li><span>${r[0]}</span><span>${lei(r[1])} lei</span></li>`).join("")
+    + `<li><span>Invitați</span><span>${ad + kids + none}</span></li>`;
+  cancelAnimationFrame(raf);
+  const from = shown, t0 = performance.now(), dur = reduce ? 1 : 700;
+  const step = t => {
+    const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+    shown = Math.round(from + (total - from) * e);
+    $("#cTotal").innerHTML = `${lei(shown)}<small>lei</small>`;
+    if (k < 1) raf = requestAnimationFrame(step);
+  };
+  raf = requestAnimationFrame(step);
+}
+$("#calcForm").addEventListener("input", calc);
+$("#calcForm").addEventListener("submit", e => e.preventDefault());
+document.querySelectorAll("[data-step]").forEach(b => b.onclick = () => {
+  const inp = b.parentElement.querySelector("input");
+  inp.value = Math.max(0, num("#" + inp.id) + +b.dataset.step); calc();
+});
+calc();
+
+/* ---- lightbox ---- */
+const lb = $("#lb"), lbImg = $("#lbImg"); let lbSet = [], lbI = 0, lastFocus;
+function showLB() { const s = lbSet[lbI]; lbImg.classList.remove("z"); lbImg.src = s.src; lbImg.alt = s.cap; $("#lbCap").textContent = s.cap;
+  $("#lbP").hidden = $("#lbN").hidden = lbSet.length < 2; }
+function openLB(set, i) { lbSet = set; lbI = i; lastFocus = document.activeElement; showLB(); lb.classList.add("open"); document.body.style.overflow = "hidden"; $("#lbX").focus(); }
+function closeLB() { lb.classList.remove("open"); document.body.style.overflow = ""; lastFocus && lastFocus.focus(); }
+function navLB(d) { lbI = (lbI + d + lbSet.length) % lbSet.length; showLB(); }
+$("#lbX").onclick = closeLB; $("#lbP").onclick = () => navLB(-1); $("#lbN").onclick = () => navLB(1);
+lb.addEventListener("click", e => { if (e.target === lb || e.target.tagName === "FIGURE") closeLB(); });
+lbImg.addEventListener("click", e => {
+  const r = lbImg.getBoundingClientRect();
+  lbImg.style.transformOrigin = `${(e.clientX - r.left) / r.width * 100}% ${(e.clientY - r.top) / r.height * 100}%`;
+  lbImg.classList.toggle("z");
+});
+let tx = null;
+lb.addEventListener("touchstart", e => { tx = e.touches[0].clientX; }, {passive:true});
+lb.addEventListener("touchend", e => { if (tx == null || lbImg.classList.contains("z")) return; const dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 50 && lbSet.length > 1) navLB(dx < 0 ? 1 : -1); tx = null; });
+addEventListener("keydown", e => {
+  if (!lb.classList.contains("open")) return;
+  if (e.key === "Escape") closeLB(); if (e.key === "ArrowRight") navLB(1); if (e.key === "ArrowLeft") navLB(-1);
+});
+
+/* ---- deep links, nav state, parallax, reveals ---- */
+function fromHash() {
+  const p = PKG.find(x => x.id === location.hash.slice(1));
+  if (p) { selectPkg(p, cur === p); requestAnimationFrame(() => $("#meniuri").scrollIntoView({behavior: reduce ? "auto" : "smooth"})); return true; }
+}
+addEventListener("hashchange", fromHash);
+selectPkg(PKG[0], true);
+fromHash();
+addEventListener("resize", moveInk);
+document.fonts && document.fonts.ready.then(moveInk);
+
+const bar = $("#bar"), barImg = $("#barImg"), links = [...document.querySelectorAll(".bar nav a")];
+const secs = links.map(a => $(a.getAttribute("href")));
+let ticking = false;
+addEventListener("scroll", () => {
+  if (ticking) return; ticking = true;
+  requestAnimationFrame(() => {
+    bar.classList.toggle("scrolled", scrollY > 10);
+    if (!reduce) { const r = barImg.parentElement.getBoundingClientRect(); if (r.bottom > 0 && r.top < innerHeight) barImg.style.transform = `translateY(${(r.top + r.height / 2 - innerHeight / 2) * -0.12}px)`; }
+    let on = -1; secs.forEach((s, i) => { if (s && s.getBoundingClientRect().top < 140) on = i; });
+    links.forEach((a, i) => a.classList.toggle("on", i === on));
+    ticking = false;
+  });
+}, {passive:true});
+
+if (!reduce && "IntersectionObserver" in window) {
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.remove("pre"); io.unobserve(e.target); } }), {rootMargin:"0px 0px -8% 0px"});
+  document.querySelectorAll(".rv").forEach(r => { if (r.getBoundingClientRect().top > innerHeight) { r.classList.add("pre"); io.observe(r); } });
+  setTimeout(() => document.querySelectorAll(".rv.pre").forEach(r => { if (r.getBoundingClientRect().top < innerHeight) r.classList.remove("pre"); }), 1500);
+}
+setTimeout(() => $(".hero").classList.remove("intro"), 2200);
+</script>
+</body>
+</html>
